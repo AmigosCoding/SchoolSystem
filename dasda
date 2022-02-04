@@ -1,0 +1,11 @@
+[33mcommit 7eac5ba18728e5ada7d6003d131c5bd725336ca6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Abdirahman Dayib <Abdirahman.Dayib@ga.ntig.se>
+Date:   Thu Feb 3 09:27:55 2022 +0100
+
+    Add project files.
+
+[33mcommit e1856d2af1ccbc8563f5295a78edb7d2e9e4c6a0[m
+Author: Abdirahman Dayib <Abdirahman.Dayib@ga.ntig.se>
+Date:   Thu Feb 3 09:27:52 2022 +0100
+
+    Add .gitignore and .gitattributes.
