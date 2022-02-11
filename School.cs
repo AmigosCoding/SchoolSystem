@@ -30,7 +30,6 @@ namespace SchoolSystem
             this.Name = aName;
             this.Location = aLocation;
             this.SchoolType = aSchoolType;
-
         }
 
 

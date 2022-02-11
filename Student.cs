@@ -24,5 +24,10 @@ namespace SchoolSystem
             this.Age = aAge;
         }
 
+        public void enterThroughTheDoor(Door doorObj)
+        {
+            doorObj.enterTheBuilding(this);
+        }
+
     }
 }
