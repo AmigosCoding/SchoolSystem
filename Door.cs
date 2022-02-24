@@ -16,7 +16,7 @@ namespace SchoolSystem
 
         public void enterTheBuilding(Student studentObj)
         {
-            Console.WriteLine($"The student {studentObj.Name} has entered through the {DoorName}");
+            Console.WriteLine($"The student {studentObj.Name} has entered through {DoorName}");
 
         }
     }
