@@ -8,6 +8,7 @@ namespace SchoolSystem
 {
     class Course
     {
+        public static  int amountOfCourses { get; set; } = 0;
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -19,6 +20,17 @@ namespace SchoolSystem
         //public School school { get; set;  } = new School();
 
         public List<Student> courseStudents { get; set; } = new List<Student>();
+
+
+        public Course( string aName, int aCoursePoint, DateTime aCourseDate) 
+        {
+            amountOfCourses++;
+            Id = amountOfCourses;
+            Name = aName;
+            CoursePoint = aCoursePoint;
+            CourseDate = aCourseDate;
+
+        }
 
 
 
